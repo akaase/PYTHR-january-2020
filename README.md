@@ -42,8 +42,21 @@ The 7 characters from the movie are:
 ## Setting Up
 
 1. Create a repository on GitHub, called `inception-assignment` or something similar
-1. Clone it to your computer
-1. `cd` into the project directory
+2. Open your Terminal and navigate to the folder for all of your development work with:
+
+   ```bash
+   cd $DEV
+   ```
+
+3. **Clone** your assignment repo onto your computer.
+
+   **Protip:** Replace `<your github username>` with your actual github username
+
+   ```bash
+   git clone https://git.generalassemb.ly/<your github username>/inception-assignment.git
+   ```
+
+4. `cd` into the project directory
 
 Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 
