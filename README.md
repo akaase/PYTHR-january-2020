@@ -59,7 +59,7 @@ Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 1. Keep going for at least 2 more levels (`level_three`, `level_four` or even `limbo`!), committing each step of the way.
 1. When you are finished, push your code to GitHub
 
-At the end of the assignment you should have a repository on your GitHub that looks similar to [the solution](https://git.generalassemb.ly/PYTHR-october-2019/hw-01-inception-solution). Take note of the commits.
+At the end of the assignment you should have a repository on your GitHub that looks similar to [the solution](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution). Take note of the commits.
 
 ![Inception Commit History](assets/commit_history.png)
 
