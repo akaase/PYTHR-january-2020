@@ -178,14 +178,3 @@ To submit this assignment:
 ![](https://media.giphy.com/media/VEfa7bl3iKG5i/giphy.gif)
 
 If you haven't watched Inception yet, maybe give it a shot, it's pretty good!
-
----
-
-# Additional Resources
-
-* [Try Git: A Course on Code School](https://www.codeschool.com/courses/try-git)
-* [How to undo the last Git commit?](http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit)
-* [Git Guide](http://rogerdudler.github.io/git-guide/)
-* [Create a Repository on GitHub](https://help.github.com/articles/create-a-repo)
-* [Reference to Unix Commands](http://www.cs.tau.ac.il/~roded/courses/soft1-b05/unix1.htm)
-* [Dive more into Unix](http://matt.might.net/articles/basic-unix/)
