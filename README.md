@@ -7,23 +7,26 @@ In this assignment, you'll practice:
 * Deleting, renaming, and moving directories or files
 * Finding what files your current directory contains, with `ls`
 * Finding what your current working directory is, with `pwd`
-* Creating a remote repository on Github
+* Forking a remote repository on Github
 * Cloning a remote repository onto your computer locally
-* Adding and committing files and directories with Git
+* Adding and committing files and directories within a repo
 * Pushing changes to Github
 
 ---
 
-# Inception
+# Exercise 1: Inception
 
 This assignment will give you some practice with Git, Github, and the command line, by recreating the story of [Inception](http://www.imdb.com/title/tt1375666/?ref_=fn_al_tt_1).
 
 You should also get a sense of what Git is, how it differs from GitHub, and how to use each of these tools.
 
-* For Git, this means working with files locally with `git add`, `git commit`, and `git status`
-* For GitHub, this means how to create a remote repository, cloning the repository locally, and pushing changes from your local repository to Github
+* Locally, we'll use Git commands to work with files:
+   * `git add`
+   * `git commit`
+   * `git status`
+* Remotely, we'll use Github to fork a remote repository, clone the repo locally, and pushing changes from your local repo back to the remote repo
 
-Instead of using dreams and characters, we will be using files and directories. Each directory will represent a level and each file will represent a character.
+Instead of using dreams and characters, we will be using directories and files. Each directory will represent a level and each file will represent a character.
 
 As you go down each level (directory), one character (file) will be left behind and you will make a commit.
 
@@ -33,7 +36,7 @@ The 7 characters from the movie are:
 * Arthur
 * Cobb
 * Eames
-* Robert Fischer Jr.
+* Robert
 * Saito
 * Yusuf
 
@@ -41,22 +44,29 @@ The 7 characters from the movie are:
 
 ## Setting Up
 
-1. Create a repository on GitHub, called `inception-assignment` or something similar
-2. Open your Terminal and navigate to the folder for all of your development work with:
+1. **Fork** the assignment repo so that you have a copy of it that belongs to you, living on Github
+
+1. Open your Terminal and navigate to the folder for all of your development work:
 
    ```bash
    cd $DEV
    ```
 
-3. **Clone** your assignment repo onto your computer.
+1. **Clone** your fork of the assignment repo onto your computer.
 
-   **Protip:** Replace `<your github username>` with your actual github username
+   Remember to clone _your_ fork of the repo, not the instructor's, so that you can make changes to it!
+
+   **Protip:** Replace `<YOUR USERNAME>` with your actual Github user name
 
    ```bash
-   git clone https://git.generalassemb.ly/<your github username>/inception-assignment.git
+   git clone https://git.generalassemb.ly/<YOUR USERNAME>/hw-01-inception.git
    ```
 
-4. `cd` into the project directory
+1. Navigate inside the folder of the newly cloned assignment repo:
+
+   ```bash
+   cd hw-01-inception
+   ```
 
 Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 
@@ -64,12 +74,14 @@ Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 
 **You must commit your changes after each step, otherwise you won't be taking snapshots in time!**
 
-1. Create text files, one for each character listed above (Ariadne, Arthur, Cobb, etc.,)
-1. Make a commit to record this chapter of the story.
-1. Create the first directory called `level_one` and move all your characters into it
-1. Make another commit!
-1. Create the next directory, `level_two` and move all but one character down into level_two
-1. Keep going for at least 2 more levels (`level_three`, `level_four` or even `limbo`!), committing each step of the way.
+1. Create text files, one for each character listed above (`arthur.txt`, `cobb.txt`, etc.)
+   * As an example, `ariadne.txt` was already created for you
+1. **Add** your files, and **Commit** to record this chapter of the story
+1. Now, all the characters will start dreaming. Create the first directory called `level_one` and move all your characters into it
+1. **Add** your changes and make another **commit**!
+1. Create the next directory, `level_two`. All of the characters, except for one, will dream into the second level. So move all but one character down into `level_two`
+1. Keep going for 2 more levels (`level_three` and `level_four`). Do the same thing at each level by moving all but one character down, committing each step of the way
+1. The final level is `limbo`. According to the movie only Saito and Cobb go into `limbo`, but you can move whoever you like here... The point is just to get some command-line practice!
 1. When you are finished, push your code to GitHub
 
 At the end of the assignment you should have a repository on your GitHub that looks similar to [the solution](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution). Take note of the commits.
@@ -80,7 +92,7 @@ At the end of the assignment you should have a repository on your GitHub that lo
 
 ## Subdirectories
 
-When you stage your files from within a subdirectory, you will need to use the `--all` flag instead of `git add .`:
+When you add your changes from within a subdirectory, you will need to use the `--all` flag instead of `git add .`:
 
 ```bash
 git add --all
@@ -155,7 +167,7 @@ If you want to know the differences between `--hard`, `--soft`, and `--mixed`, c
 * Pushes local repo to remote repo
 
    ```bash
-   git push origin master
+   git push
    ```
 
 ---
