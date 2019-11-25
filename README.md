@@ -24,6 +24,7 @@ You should also get a sense of what Git is, how it differs from GitHub, and how 
    * `git add`
    * `git commit`
    * `git status`
+
 * Remotely, we'll use Github to fork a remote repository, clone the repo locally, and pushing changes from your local repo back to the remote repo
 
 Instead of using dreams and characters, we will be using directories and files. Each directory will represent a level and each file will represent a character.
@@ -56,10 +57,10 @@ The 7 characters from the movie are:
 
    Remember to clone _your_ fork of the repo, not the instructor's, so that you can make changes to it!
 
-   **Protip:** Replace `<YOUR USERNAME>` with your actual Github user name
+   **Protip:** Replace `YOUR_USERNAME` with your actual Github user name
 
    ```bash
-   git clone https://git.generalassemb.ly/<YOUR USERNAME>/hw-01-inception.git
+   git clone https://git.generalassemb.ly/YOUR_USERNAME/hw-01-inception.git
    ```
 
 1. Navigate inside the folder of the newly cloned assignment repo:
