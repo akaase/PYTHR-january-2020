@@ -84,7 +84,13 @@ Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 1. The final level is `limbo`. According to the movie only Saito and Cobb go into `limbo`, but you can move whoever you like here... The point is just to get some command-line practice!
 1. When you are finished, push your code to GitHub
 
-At the end of the assignment you should have a repository on your GitHub that looks similar to [the solution](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution). Take note of the commits.
+## Solution
+
+Special only for this assignment -- the "solution" is already available for you to look at.
+
+When you are done, you should have a repository inside your GitHub account that looks similar to [this one](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution).
+
+Take note of the commit history!
 
 ![Inception Commit History](assets/commit_history.png)
 
@@ -176,7 +182,7 @@ If you want to know the differences between `--hard`, `--soft`, and `--mixed`, c
 
 To submit this assignment:
 
-1. Go to the [assignment's main repo](../..)
+1. Go to the **assignment's main repo**
 1. Click the **Issues** tab
 1. Click the **New Issue** button
 1. In the Title field, fill in your name
