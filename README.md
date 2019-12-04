@@ -69,7 +69,7 @@ The 7 characters from the movie are:
    cd hw-01-inception
    ```
 
-Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
+Continue with the assignment steps below. Have fun and feel free to discuss tips & tricks on our Slack discussion channel!
 
 ## Assignment Steps
 
@@ -183,7 +183,7 @@ If you want to know the differences between `--hard`, `--soft`, and `--mixed`, c
 
 To submit this assignment:
 
-1. Go to the **assignment's main repo**
+1. In your web browser, go to the **assignment's main repo** (not your fork)
 1. Click the **Issues** tab
 1. Click the **New Issue** button
 1. In the Title field, fill in your name
