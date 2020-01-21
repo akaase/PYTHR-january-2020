@@ -87,9 +87,9 @@ Continue with the assignment steps below. Have fun and feel free to discuss tips
 
 ## Solution
 
-Special only for this assignment -- the "solution" is already available for you to look at.
+Special only for this assignment -- the "[solution](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution)" is already available for you to look at.
 
-When you are done, you should have a repository inside your GitHub account that looks similar to [this one](https://git.generalassemb.ly/PYTHR-Library/hw-01-inception-solution).
+When you are done, your repo inside your GitHub account should look similar to the solution.
 
 Take note of the commit history!
 
@@ -107,7 +107,7 @@ git add --all
 
 ## Empty Directories
 
-Github only tracks files and not directories. You won't be able to commit a new directory unless there's at least one file in it! See [Git FAQ: Empty directories](https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F) for more details.
+Git only tracks files and not directories. You won't be able to commit a new directory unless there's at least one file in it! See [Git FAQ: Empty directories](https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F) for more details.
 
 ## Help on Command-Line Commands
 
@@ -174,7 +174,7 @@ If you want to know the differences between `--hard`, `--soft`, and `--mixed`, c
 * Pushes local repo to remote repo
 
    ```bash
-   git push
+   git push origin master
    ```
 
 ---
